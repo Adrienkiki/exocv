@@ -1,0 +1,79 @@
+body
+{
+	font-family: monospace;
+	background-color: deeppink;
+}
+
+header
+{
+	text-align: center;
+	background-color: purple;
+	margin: auto;
+	width: 90%;
+    box-shadow: 5px 5px 0px black;
+    border-radius: 10px;
+}
+
+footer
+{
+	text-align: center;
+	background-color: purple;
+	margin: auto;
+	width: 90%;
+	display: none;
+}
+
+p
+{
+	margin: 15px;
+	text-align: justify;
+	background-color: purple;
+	width:30%;
+	padding: 10px;
+	box-shadow: 5px 5px 0px black;
+}
+
+section
+{
+	display: flex;
+}
+
+@media (max-width: 640px)		
+{
+	section
+	{
+		display: block;
+	}
+
+	p
+	{
+		width: 90%;
+	}
+}
+
+@media (max-width: 800px)		
+{
+	header
+	{
+		display: none;
+	}	
+}
+
+@media print 		
+{
+	header
+	{
+		display: block;
+		box-shadow: none;
+	}
+
+	p
+	{
+		box-shadow: none;
+	}
+
+	footer
+	{
+		display: block;
+	}	
+}

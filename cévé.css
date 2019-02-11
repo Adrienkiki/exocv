@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+    background-color: deeppink;
+    border-radius: 10px;
+
+    
+  }
+  @-webkit-keyframes blinker {
+    from { color: white }
+    to { color: black }
+  }
+  
+  .waitingForConnection {
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+    -webkit-animation-duration: 0.15s;
+  }
+  ul, li {
+    list-style: none;
+    text-align: justify;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+  
+  }
+  
+  form {
+    text-align: justify;
+    border-radius: 10px;
+  }
+  body {
+    background-color: purple;
+  }
+  .photo {
+    height: 50px;
+    width: 50px;
+  
+  }
+  form {
+    color: deeppink;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .font {
+    font-family: 'Times New Roman', Times, serif;
+  }
