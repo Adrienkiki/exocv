@@ -16,6 +16,17 @@ header {
     -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
     -webkit-animation-duration: 0.15s;
   }
+  @-webkit-keyframes blinker2 {
+    from { opacity: 1; }
+    to { opacity: 0.1; }
+  }
+  
+  .waitingForConnection2 {
+    -webkit-animation-name: blinker2;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+    -webkit-animation-duration: 0.15s;
+  }
   ul, li {
     list-style: none;
     text-align: justify;
